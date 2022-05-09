@@ -1,0 +1,409 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box; 
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none; 
+    margin: auto; 
+}
+  
+
+/*MENU DE ARRIBA*/
+.menu {
+    display: flex;
+}
+
+header .menu {
+    margin-top: 18px;
+}
+
+
+/*LOGO SPOTIFY*/
+.menu .b20{
+    flex-basis: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+.img {
+    width: 10%;
+    height: auto;
+}
+
+header .logo {
+    border: 5px ;
+    width: 70px;
+    margin: auto;
+}
+
+
+/*NAVEGADOR*/
+.menu .b60{
+    flex-basis: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
+header .navegador { 
+    font-weight: 400;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border: 1px;
+    padding: 20px;
+
+}
+
+header .navegador ul li a {
+    color: black;
+    padding: 8px;
+}
+    
+header .navegador ul li a:hover {
+    color: forestgreen;
+    text-decoration-line: underline;    
+}
+
+      
+header .navegador ul li {
+    display: inline;
+    padding: 5px;
+}
+
+
+/*BOTONES*/                            
+.menu .b20{
+    flex-basis: 20%;
+    background-color: rgb(255, 255, 255);
+}                   
+
+header .botones ul li {
+    display: inline;
+    padding: 5px;
+}
+
+header .botones ul li a{
+    font-weight: 500;
+    color: #000000;
+    background-color: rgba(14, 201, 54, 0.87);
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    margin: 0px 10px;
+}
+            
+header .botones ul li a:hover{
+    background-color: rgb(143, 138, 143);
+    box-shadow: 10px 10px 5px 0px rgba(207, 204, 204, 0.75);
+    transition: 3s;}
+
+
+/*CONTENEDOR MARCA*/
+.grow{
+    display:flex;
+    width: 100%;
+}
+    
+    
+.grow .contenedor_marca{
+    flex-grow:2;
+    border: 5px ;
+}
+
+.grow .imagenes{
+    border: 3px;
+    padding: 60px;
+    width: 25%;
+    height: auto
+}
+    
+.grow .contenedor_marca { 
+    border: 3px;
+    padding: 35px;
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    font-weight: 300;
+}
+
+.grow .contenedor_marca h1{
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: -30px;
+}
+
+/*CONTENEDOR LOGOTIPO*/
+.justify-content{
+    width: 100%;
+    padding-left:  100Px;
+    padding-right: 100px;
+    padding-top: 90px;
+    background-color: black;
+    text-align: justify;
+}
+
+.justify-content h2{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.87);
+}
+    
+.justify-content p{
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.justify-content .logotipo{
+    display: flex;
+    justify-content: center;
+    }
+
+    
+.justify-content .imagenes{
+    border: 3px;
+    padding: 100px;
+    width: 100%;
+    height: auto;
+}
+
+
+/*CONTENEDOR 2*/
+.justify-content_2{
+    width: 100%;
+    padding-left:  100Px;
+    padding-right: 100px;
+    padding-top: 150px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.justify-content_2 h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    }
+
+.justify-content_2 p{
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.justify-content_2 .logotipo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.justify-content_2 .imagenes{
+    border: 3px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+
+/*CONTENEDOR 3*/
+
+.justify-content_3 {
+    width: 100%;
+    padding-left:  100Px;
+    padding-right: 100px;
+    padding-top: 150px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 100px;
+}
+
+
+.justify-content_3 h2{
+    font-size: 40px;
+    color:rgba(255, 255, 255, 0.87);
+}
+    
+.justify-content_3 p{
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+.justify-content_3 .logotipo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.justify-content_3 .imagenes{
+    border: 3px;
+    padding: 20px;
+    width: 200px;
+    height: auto
+}    
+
+
+/*pie de pagina*/
+    
+.pie_pagina {
+    display: flex;
+    background-color: rgba(14, 201, 54, 0.87);
+}
+
+.pie_pagina .redes{
+    width: 100%;
+    padding-left:  100Px;
+    padding-right: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+    
+
+.pie_pagina .redes h1 {
+    font-size: 28px;
+    text-align:start;
+}
+
+
+.pie_pagina .iconos{
+    flex-basis: 60%;
+}
+    
+header .pie_pagina .iconos{ 
+    font-weight: 400;
+    text-align: left;
+    margin-right: 100px;
+    margin-top: 10px;
+    border: 1px;
+    padding-top: 20px;
+    }
+    
+header .pie_pagina .iconos ul li a {
+color: black;
+padding: 8px;
+}
+        
+header .pie_pagina .iconos ul li {
+    display: inline;
+    padding: 5px;
+} 
+
+
+/*producto*/
+ .producto_pp .producto{
+    flex-basis: 60%;
+}
+
+.producto_pp .producto h2{
+    font-weight: 500;
+}
+
+                
+header .producto_pp .producto{ 
+    font-weight: 400;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border: 1px;
+    padding: 20px;
+}
+                
+header .producto_pp .producto ul li a {
+    color: black;
+}
+                    
+header .producto_pp .producto ul li a:hover {
+    color: forestgreen;
+    text-decoration-line: underline;    
+}
+                
+                      
+header .producto_pp .producto ul li {
+    display: inline;
+}                
+                
+/*compañia*/
+
+.producto_pp .compañia{
+    flex-basis: 60%;
+
+}
+.producto_pp .compañia h2{
+    font-weight: 500;
+}
+
+
+header .producto_pp .compañia{ 
+    font-weight: 400;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border: 1px;
+    padding: 20px;
+}
+
+header .producto_pp .compañia ul li a {
+    color: black;
+}
+    
+    header .producto_pp .compañia ul li a:hover {
+    color: forestgreen;
+    text-decoration-line: underline;   
+}
+
+      
+header .producto_pp .compañia ul li {
+    display: inline;
+}   
+
+.section .final{
+    display: flex;
+}
+
+/*MENU DE Abajo*/
+.menu-final {
+    display: flex;
+    background-color: dimgrey;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+/*LOGO SPOTIFY abajo*/
+.menu-final .b25{
+    flex-basis: 20%;
+    background-color: dimgrey;}
+
+.img {
+    width: 10%;
+    height: auto;
+}
+
+header .logo {
+    border: 5px ;
+    width: 70px;
+    margin: auto;
+}
+/*BOTON final*/                            
+.menu-final .b50 .botones{
+    flex-basis: 50%;
+    
+}                   
+
+header .botones ul li {
+    display: flex;
+    padding: 5px;
+}
+
+header .botones ul li a{
+    font-weight: 500;
+    color: #000000;
+    background-color: rgba(217, 228, 220, 0.87);
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    margin: 0px 10px;
+}
+            
+header .botones ul li a:hover{
+    background-color: rgb(143, 138, 143);
+    box-shadow: 10px 10px 5px 0px rgba(207, 204, 204, 0.75);
+    transition: 3s;}
+
+
+
